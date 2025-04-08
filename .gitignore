@@ -1,0 +1,69 @@
+# .NET build outputs
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+TestResults/
+x64/
+x86/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vscode/
+*.psess
+*.vsps
+*.vsp
+*.sln.docstates
+*.bak
+
+# NuGet
+packages/
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Test Results
+TestResults/
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Test reports and screenshots
+**/TestReports/
+**/Screenshots/
+*.trx
+*.html
+*.png
+*.jpeg
+*.jpg
+*.gif
+
+# Selenium WebDriver specific
+**/drivers/
+*.exe
+**/*chromedriver*
+**/*geckodriver*
+**/*IEDriverServer*
+**/*MicrosoftWebDriver*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Misc
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/
+orleans.codegen.cs
+Logs/
+*.log
+.env 
