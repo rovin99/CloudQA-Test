@@ -49,4 +49,13 @@ fi
 
 echo "-------------------------------------------"
 echo "All Reports:"
-find "$REPORTS_DIR" -name "*.html" -type f | sort -r 
+find "$REPORTS_DIR" -name "*.html" -type f | sort -r
+
+echo "-------------------------------------------"
+echo "Viewing Reports:"
+echo "1. Navigate to the `TestReports` folder in your project root"
+echo "2. Open the most recent `TestReport_*.html` file for detailed test results"
+echo "3. Open the most recent `executive-summary_*.html` file for the dashboard view"
+
+Reports will be saved to: /path/to/your/project/TestReports
+Report initialized at: /path/to/your/project/TestReports/TestReport_20250408_123456.html 
